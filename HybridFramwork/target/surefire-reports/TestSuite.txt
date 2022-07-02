@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 9.345 s <<< FAILURE! - in TestSuite
+com.tests.LoginTC.failTest  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.tests.LoginTC.failTest(LoginTC.java:34)
+
+com.tests.LoginTC.passTest  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.tests.LoginTC.passTest(LoginTC.java:28)
+
